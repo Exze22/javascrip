@@ -2,43 +2,40 @@
 // 1. Comprueba si 10 es mayor o igual que 9 e imprime el resultado en consola.
 function compareTenAndNine() {
     console.log(10>=9)
-VM84:1 true// Tu código aquí...
+// Tu código aquí...
 }
 
 // 2. Comprueba si 0 es igual a 0 e imprime el resultado en consola.
 function compareZeroAndZero() {
    console.log(0==0)
-VM158:1 true // Tu código aquí...
+// Tu código aquí...
 }
 
 // 3. Comprueba si 7 es mayor que 8 y menor que 10, e imprime el resultado en consola.
 function compareSeven() {
    console.log(7>=8 && 7<=10)
-VM452:1 false // Tu código aquí...
+// Tu código aquí...
 }
 
 // Operadores lógicos
 // 4. Verifica si puedes comprar un producto de 1500 con un descuento del 25% teniendo 1150€ e imprime si puedes o no.
 function canBuyProduct() {
     const p1 = 1500;
-undefined
-const desc = 0,25;
-VM544:1 Uncaught SyntaxError: Unexpected numberUnderstand this error
 const desc = 0.25;
-undefined
+
 const dd = 1150;
-undefined
+
 const pd = p1 * (1 - desc)
-undefined
+
 if (dd >= pd ){}
-undefined
+
 if (dd >= pd ){
     console.log("puedes comprarlo")
 }else{
         console.error("no plata no comprar")
 }
-VM901:2 puedes comprarlo
-undefined// Tu código aquí...
+
+// Tu código aquí...
 
 }
 
@@ -53,14 +50,14 @@ console.log(mensaje)// Tu código aquí...
 function createSumVariable() {
     let suma = 2 + 3 
 console.log(suma)
-VM1151:2 5// Tu código aquí...
+// Tu código aquí...
 }
 
 // 7. Crea una constante llamada `IS_DISABLED` y asígnale el valor booleano `true`, luego imprime la constante en consola.
 function createDisabledConstant() {
     const IS_DISABLED = true
 console.log(IS_DISABLED)
-VM1283:2 true// Tu código aquí...
+// Tu código aquí...
 }
 
 // Null y Undefined
@@ -68,14 +65,14 @@ VM1283:2 true// Tu código aquí...
 function createNullVariable() {
     let capacidad = null
 console.log(capacidad)
-VM1391:2 null// Tu código aquí...
+// Tu código aquí...
 }
 
 // 9. Crea una variable con `let` llamada `dinero` y asígnale un valor `undefined`, luego imprime la variable en consola.
 function createUndefinedVariable() {
     let dinero = undefined
 console.log(dinero)
-VM1543:2 undefined// Tu código aquí...
+// Tu código aquí...
 }
 
 // typeof
@@ -83,7 +80,7 @@ VM1543:2 undefined// Tu código aquí...
 function checkUserNameType() {
    let username = "PEdro"
 console.log(typeof username)
-VM1745:2 string // Tu código aquí...
+// Tu código aquí...
 }
 
 // 11. Asegúrate de que `dogId` es una cadena de texto y luego imprime el tipo de dato en consola.
@@ -95,28 +92,28 @@ if (typeof dogId === 'string') {
 } else {
     console.log(`no es una cadena de texto, su tipo es: ${typeof dogId}`);
 }
-VM1756:4  es una cadena de texto y su tipo es: string // Tu código aquí...
+// Tu código aquí...
 }
 
 // console.log()
 // 12. Imprime un mensaje en la consola utilizando `console.log()`.
 function logMessage() {
    console.log("hola gente de desarrollo joven")
-VM1818:1 hola gente de desarrollo joven // Tu código aquí...
+// Tu código aquí...
 }
 
 // 13. Utiliza `console.log()` para imprimir el valor de la variable `edad` que tiene el valor 30.
 function logAge() {
     let edad = 30
 console.log(edad, "años")
-VM2061:2 30 'años'// Tu código aquí...
+// Tu código aquí...
 }
 
 // 14. Muestra el mensaje 'La versión de JavaScript es' seguido de la variable `version` con el valor 2024 usando `console.log()`.
 function logVersion() {
    let version = 2024
 console.warn("SU VERSION DE JAVASCRIP ES EL", version)
-VM2603:2 SU VERSION DE JAVASCRIP ES EL 2024 // Tu código aquí...
+// Tu código aquí...
 }
 
 // Exportar todas las funciones para poder usarlas en las pruebas
