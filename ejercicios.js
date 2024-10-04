@@ -20,19 +20,20 @@ function compareSeven() {
 // Operadores lógicos
 // 4. Verifica si puedes comprar un producto de 1500 con un descuento del 25% teniendo 1150€ e imprime si puedes o no.
 function canBuyProduct() {
-    const p1 = 1500;
-const desc = 0.25;
+    //p1= costo del producto
+    //desc= descuento
+//dd = dinero en el bolsillo
+    const p1 = 1500; // producto a comprar
+const desc = 0.25; //descuento 
 
-const dd = 1150;
+const dd = 1150; // dinero en cuenta
 
-const pd = p1 * (1 - desc)
-
-if (dd >= pd ){}
+const pd = p1 * (1 - desc) //calculo del descuento
 
 if (dd >= pd ){
     console.log("puedes comprarlo")
 }else{
-        console.error("no plata no comprar")
+        console.error("no puedes comprarlo")
 }
 
 // Tu código aquí...
@@ -112,7 +113,7 @@ console.log(edad, "años")
 // 14. Muestra el mensaje 'La versión de JavaScript es' seguido de la variable `version` con el valor 2024 usando `console.log()`.
 function logVersion() {
    let version = 2024
-console.warn("SU VERSION DE JAVASCRIP ES EL", version)
+console.log("SU VERSION DE JAVASCRIP ES EL", version)
 // Tu código aquí...
 }
 
